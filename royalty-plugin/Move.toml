@@ -1,0 +1,13 @@
+[package]
+name = "FooRoyalty"
+version = "0.1.0"
+
+[dependencies.NftProtocol]
+git = "https://github.com/Origin-Byte/nft-protocol.git"
+rev = "b334b19e42c7a4512fe76f29fdda9303dfb0e112"
+
+[dependencies.Foo]
+local = "../base-contract"
+
+[addresses]
+foo_royalty = "0x0"
